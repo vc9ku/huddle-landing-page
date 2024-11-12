@@ -104,12 +104,22 @@ header {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+    box-shadow: 3px 6px 3px black;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.content a:hover {
+    transition: 0.4s;
+    background-color: #E880E8;
+    color: white;
 }
 
 .socials {
     display: flex;
     justify-content: right;
-    margin-top: 100px;
+    margin-top: 316px;
+    margin-right: 80px;
 }
 
 .rectangle1, .rectangle2, .rectangle3, .rectangle4, .rectangle5, .rectangle6 {
@@ -130,4 +140,19 @@ header {
     z-index: -1;
     top: 178px;
     left: 702px;
+}
+
+.rectangle4 {
+    top: 594px;
+    left: 1237px;
+}
+
+.rectangle5 {
+    top: 682px;
+    left: 1108px;
+}
+
+.rectangle6 {
+    top: 708px;
+    left: 96px;
 }
