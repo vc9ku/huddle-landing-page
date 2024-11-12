@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #684BB1;
+}
+
+.logo {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 64px;
+}
+
+.first-path, .second-path {
+    position: absolute;
+}
+
+.first-path {
+    width: 50%;
+    top: 0;
+}
+
+.second-path {
+    width: 70%;
+    left: 0;
+    bottom: 0;
+
+}
+
+.tablet, .phone {
+    position: absolute;
+}
+
+.tablet {
+    left: 80px;
+    top: 200px;
+}
+
+.phone {
+    top: 342px;
+    left: 556px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.content h1 {
+
+}
